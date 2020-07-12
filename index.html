@@ -178,7 +178,10 @@
         <ul>
           <li class="half" id="contactForm" netlify>
             <div>
-              <form name="contact" netlify>
+              <form name="contact" netlify method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden">
+                  <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
                 <input type="text" name="name" placeholder="Your Name"/>
                 <input type="email" name="mail" placeholder="Your Mail"/>
                 <textarea name="message" placeholder="Message"></textarea>
