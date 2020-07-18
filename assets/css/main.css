@@ -607,3 +607,6 @@ section .reverse {
 }
 
 
+.hidden {
+    display: none;
+}
