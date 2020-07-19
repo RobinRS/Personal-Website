@@ -61,7 +61,7 @@ function init () {
     }
   }, loadingAnimationTime + 300)
   if(window.matchMedia("(prefers-color-scheme: dark)")) {
-    document.querySelector('style').textContent += "@media (prefers-color-scheme: dark) { :root { --contrast: #FB7B6B; --bgColor: #3B3B3D; --fontColor: #F0F0F0; } .corner { fill:#A63729; } #social svg { fill:white; } .content-box {background: black !important; } #skills .skills svg { fill: white; } section .reverse { color: var(--fontColor); } #footer { color: var(--fontColor); } #contact button { background: linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } #skills .bg { background:  linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } .accentbutton { background:  linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } }"
+    document.querySelector('style').textContent += "@media (prefers-color-scheme: dark) { :root { --contrast: #FB7B6B; --bgColor: #3B3B3D; --fontColor: #F0F0F0; } .corner { fill:#A63729; } #social svg { fill:white; } .content-box {background: black !important; } #skills .skills svg { fill: white; } section .reverse { color: var(--fontColor); } #footer { color: var(--fontColor); } #contact button { background: linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } #skills .bg { background:  linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } .accentbutton { background:  linear-gradient(135deg, #CA4F4F 0%, #7A1C91 100%); } .numberCircle {border-radius: 50%;width: 25px;height: 25px;padding: 4px; background: #fff;border: 2px solid var(--bgColor);color: var(--bgColor);text-align: center; font-family: sans-serif;font-size: 22px; } }"
     isDark = true;
   }
   if(msieversion()) {
