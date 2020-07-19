@@ -39,6 +39,10 @@ function msieversion() {
 }
 
 function init () {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
   const container = document.getElementById("main");
   const curtain = revealCurtain(container);
   setTimeout(function() {
