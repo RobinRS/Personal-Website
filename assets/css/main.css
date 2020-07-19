@@ -734,7 +734,7 @@ section .reverse {
     }
 
     .curtain {
-        min-height: calc(100vh - 32px - 55px);
+        min-height: calc(100vh - 32px);
     }
 
     #main {
