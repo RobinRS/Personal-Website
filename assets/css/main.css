@@ -751,4 +751,8 @@ section .reverse {
         display: inline-block;
     }
 
+    #footer * {
+        padding: 5px 10px !important;
+    }
+
 }
