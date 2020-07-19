@@ -258,7 +258,7 @@ body {
     position: fixed;
     background-color: var(--contrast);
     width: calc(100vw - 12px);
-    min-height: calc(100vw - 12px);
+    min-height: calc(100vh - 12px);
     top: 0px;
     left: 0px;
 }
@@ -748,7 +748,7 @@ section .reverse {
     }
 
     .curtain {
-        min-height: calc(100vw - 32px);
+        min-height: calc(100vh - 32px);
     }
 
 }
