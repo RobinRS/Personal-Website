@@ -311,6 +311,11 @@ section .reverse {
     top: 35vh;
 }
 
+.project img {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
 .project-heading {
     color: var(--fontColor);
     font-weight: 700;
