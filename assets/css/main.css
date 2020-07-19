@@ -459,13 +459,6 @@ section .reverse {
 }
 
 
-
-
-
-
-
-
-
 @-webkit-keyframes grow {
     0% {
         width: 0px;
@@ -476,16 +469,9 @@ section .reverse {
     }
     100% {
         width: calc(100vw - 52px);
-        height: calc(100vh - 40px);
+        height: calc(100vh - 40px - 55px);
     }
 }
-
-
-
-
-
-
-
 
 
 @keyframes grow {
@@ -498,7 +484,7 @@ section .reverse {
     }
     100% {
         width: calc(100vw - 52px);
-        height: calc(100vh - 40px);
+        height: calc(100vh - 40px - 55px);
     }
 }
 
