@@ -175,7 +175,7 @@ body {
 }
 
 #main {
-    min-height: calc(100vh - 40px);
+    min-height: calc(100% - 40px);
     background-color: var(--bgColor);
     border: 20px solid var(--contrast);
 }
@@ -733,9 +733,9 @@ section .reverse {
     }
 
     #social {
-        width: 85%;
-        top: 140px;
-        margin: 7.5%;
+        width: 80%;
+        top: 130px;
+        margin: 10%;
     }
 
     .box {
