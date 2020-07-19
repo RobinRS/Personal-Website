@@ -175,7 +175,7 @@ body {
 }
 
 #main {
-    max-height: calc(100vh - 40px);
+    min-height: calc(100vh - 40px);
     background-color: var(--bgColor);
     border: 20px solid var(--contrast);
 }
