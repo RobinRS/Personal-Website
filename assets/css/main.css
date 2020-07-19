@@ -312,8 +312,8 @@ section .reverse {
 }
 
 .project img {
-    max-width: 95%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 0 2.5%;
 }
 
 .project-heading {
