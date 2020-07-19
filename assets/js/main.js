@@ -139,6 +139,11 @@ window.onscroll = function() {
 
 }
 
+window.addEventListener('resize', () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
 function vh() {
   var div, h;
   div = document.createElement('div');
