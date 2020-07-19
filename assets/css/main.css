@@ -739,7 +739,7 @@ section .reverse {
 
     #social {
         width: 80%;
-        top: 110px;
+        top: 100px;
         margin: 10%;
     }
 
@@ -748,7 +748,7 @@ section .reverse {
     }
 
     .curtain {
-        min-height: calc(100vh - 32px);
+        min-height: calc(100vh - 32px - 55px);
     }
 
     #main {
@@ -757,8 +757,8 @@ section .reverse {
     
 
     #scrollDown {
-        min-height: calc(100vh - calc(100vh / 1.8) - 40px);
-        top: calc(100vh / 1.8);
+        min-height: calc(100vh - calc(100vh / 1.9) - 40px);
+        top: calc(100vh / 1.9);
     }
 
 }
