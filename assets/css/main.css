@@ -751,4 +751,9 @@ section .reverse {
         min-height: calc(100vh - 32px);
     }
 
+    #main {
+        min-height: calc(100vh - 40px - 90px);
+    }
+    
+
 }
