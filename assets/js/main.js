@@ -97,7 +97,7 @@ function toogleColorTracker() {
 };
 
 window.onscroll = function() {
-  if(document.documentElement.scrollTop > 200) {
+  if(document.documentElement.scrollTop > 50) {
     if(window.matchMedia("(prefers-color-scheme: dark)") && !isDark) {
       document.querySelector("nav").style.backgroundColor = "#F0F0F0";
     }else {
